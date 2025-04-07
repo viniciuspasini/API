@@ -1,0 +1,31 @@
+{
+    "name": "vinip/mvc-php",
+    "require-dev": {
+        "symfony/var-dumper": "^7.2",
+        "fakerphp/faker": "^1.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\": "core/",
+            "resources\\": "resources/",
+            "database\\": "database/"
+        },
+        "files": [
+            "core/helpers/constants.php",
+            "core/helpers/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Vinicius Pasini",
+            "email": "vinipasini@hotmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "spatie/ignition": "^1.15",
+        "php-di/php-di": "^7.0",
+        "league/plates": "^3.6"
+    }
+}
